@@ -1,0 +1,1172 @@
+ERROR - 2022-08-30 04:33:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-08-30 04:33:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 04:33:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-08-30 04:33:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 04:33:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-08-30 04:33:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 04:37:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '252 = :252:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1 in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investo...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investo...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investo...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investo...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('252', Array)
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 04:37:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '252 = :252:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investor` SET 252 = :252:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investor` SET 252 = :252:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investor` SET 252 = :252:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investor` SET 252 = :252:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', [...], false)
+ 5 APPPATH\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('252', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 05:09:40 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Director.php on line 209.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxAdd()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 05:10:14 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Director.php on line 209.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxAdd()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 05:10:18 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Director.php on line 209.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxAdd()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 05:13:18 --> Allowed fields must be specified for model: App\Models\DirectorModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\DirectorModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Director.php(239): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxAdd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 06:47:59 --> Call to undefined method App\Models\DirectorModel::get_by_id
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Director.php(185): CodeIgniter\Model->__call('get_by_id', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 06:48:07 --> Call to undefined method App\Models\DirectorModel::get_by_id
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Director.php(185): CodeIgniter\Model->__call('get_by_id', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 06:50:40 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 06:50:40 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'640\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 06:51:53 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 06:51:53 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'640\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 06:53:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 06:53:45 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'640\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 06:53:58 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 06:53:58 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'640\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 07:02:56 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 07:02:56 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'640\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 07:49:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1 in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investo...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investo...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investo...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investo...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('250', Array)
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 07:49:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', [...], false)
+ 5 APPPATH\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('250', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 07:49:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1 in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investo...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investo...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investo...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investo...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('250', Array)
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 07:49:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', [...], false)
+ 5 APPPATH\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('250', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 07:50:03 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 07:50:03 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'640\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'640\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('640')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 07:52:14 --> Class 'App\Models\Database' not found
+in APPPATH\Models\DirectorModel.php on line 49.
+ 1 APPPATH\Controllers\Director.php(23): App\Models\DirectorModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Director->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 07:53:04 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `di...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `di...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `di...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `di...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Models\DirectorModel.php(61): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(318): App\Models\DirectorModel->delete_by_id('640')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_delete('640')
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-08-30 07:53:04 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `director`
+WHERE `id` = \'640\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `director`
+WHERE `id` = \'640\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `director`
+WHERE `id` = \'640\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\DirectorModel.php(61): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Director.php(318): App\Models\DirectorModel->delete_by_id('640')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_delete('640')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 07:55:12 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('642')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 07:55:12 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'642\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'642\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'642\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('642')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 08:08:03 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('641')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 08:08:03 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'641\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'641\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'641\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('641')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 08:09:10 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('642')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 08:09:10 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'642\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'642\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'642\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('642')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 08:09:36 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('642')
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 08:09:36 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `director`
+WHERE `id` = \'642\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `director`
+WHERE `id` = \'642\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `director`
+WHERE `id` = \'642\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `director`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Director.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajax_edit('642')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 08:14:33 --> Undefined variable: insert
+in APPPATH\Controllers\Director.php on line 245.
+ 1 APPPATH\Controllers\Director.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: insert', 'APPPATH\\Controllers\\Director.php', 245, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 08:15:37 --> Undefined variable: insert
+in APPPATH\Controllers\Director.php on line 246.
+ 1 APPPATH\Controllers\Director.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: insert', 'APPPATH\\Controllers\\Director.php', 246, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 08:15:59 --> Undefined variable: insert
+in APPPATH\Controllers\Director.php on line 246.
+ 1 APPPATH\Controllers\Director.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: insert', 'APPPATH\\Controllers\\Director.php', 246, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 08:25:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1 in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investo...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investo...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investo...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investo...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('250', Array)
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 08:25:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', [...], false)
+ 5 APPPATH\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('250', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-30 08:26:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1 in C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investo...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investo...')
+#2 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investo...')
+#3 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investo...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\auzinew\app\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('250', Array)
+#5 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+#6 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+#7 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\h4ham\OneDrive\Desktop\auzinew\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\h4ham\OneDrive\Desktop\auzinew\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#10 {main}
+CRITICAL - 2022-08-30 08:26:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `inve...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `investor` SET 250 = :250:
+WHERE `user_id` = :user_id:
+AND `investor` = :investor:
+AND `investor_type` = :investor_type:
+AND `amount` = :amount:
+AND `netProfit` = :netProfit:
+AND `payment_frequency` = :payment_frequency:
+AND `image` = :image:', [...], false)
+ 5 APPPATH\Controllers\Investor.php(263): CodeIgniter\Database\BaseBuilder->update('250', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxAdd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 08:31:23 --> Undefined variable: method
+in APPPATH\Controllers\OpeningCosts.php on line 239.
+ 1 APPPATH\Controllers\OpeningCosts.php(239): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: method', 'APPPATH\\Controllers\\OpeningCosts.php', 239, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningCosts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 08:31:30 --> Undefined variable: method
+in APPPATH\Controllers\OpeningCosts.php on line 239.
+ 1 APPPATH\Controllers\OpeningCosts.php(239): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: method', 'APPPATH\\Controllers\\OpeningCosts.php', 239, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningCosts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 08:33:43 --> Undefined variable: qty
+in APPPATH\Controllers\OpeningCosts.php on line 241.
+ 1 APPPATH\Controllers\OpeningCosts.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: qty', 'APPPATH\\Controllers\\OpeningCosts.php', 241, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningCosts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 08:34:28 --> Undefined variable: salvage
+in APPPATH\Controllers\OpeningCosts.php on line 244.
+ 1 APPPATH\Controllers\OpeningCosts.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: salvage', 'APPPATH\\Controllers\\OpeningCosts.php', 244, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningCosts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:43:48 --> Undefined property: App\Controllers\Print_center\PrintCenter::$load
+in APPPATH\Controllers\Print_center\PrintCenter.php on line 29.
+ 1 APPPATH\Controllers\Print_center\PrintCenter.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Print_center\\PrintCenter::$load', 'APPPATH\\Controllers\\Print_center\\PrintCenter.php', 29, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:43:49 --> Undefined property: App\Controllers\Print_center\PrintCenter::$load
+in APPPATH\Controllers\Print_center\PrintCenter.php on line 29.
+ 1 APPPATH\Controllers\Print_center\PrintCenter.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Print_center\\PrintCenter::$load', 'APPPATH\\Controllers\\Print_center\\PrintCenter.php', 29, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:44:06 --> Undefined property: App\Controllers\Print_center\PrintCenter::$load
+in APPPATH\Controllers\Print_center\PrintCenter.php on line 29.
+ 1 APPPATH\Controllers\Print_center\PrintCenter.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Print_center\\PrintCenter::$load', 'APPPATH\\Controllers\\Print_center\\PrintCenter.php', 29, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:45:32 --> Undefined property: App\Controllers\Print_center\PrintCenter::$load
+in APPPATH\Controllers\Print_center\PrintCenter.php on line 30.
+ 1 APPPATH\Controllers\Print_center\PrintCenter.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Print_center\\PrintCenter::$load', 'APPPATH\\Controllers\\Print_center\\PrintCenter.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:45:33 --> Undefined property: App\Controllers\Print_center\PrintCenter::$load
+in APPPATH\Controllers\Print_center\PrintCenter.php on line 30.
+ 1 APPPATH\Controllers\Print_center\PrintCenter.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Print_center\\PrintCenter::$load', 'APPPATH\\Controllers\\Print_center\\PrintCenter.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:45:33 --> Undefined property: App\Controllers\Print_center\PrintCenter::$load
+in APPPATH\Controllers\Print_center\PrintCenter.php on line 30.
+ 1 APPPATH\Controllers\Print_center\PrintCenter.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Print_center\\PrintCenter::$load', 'APPPATH\\Controllers\\Print_center\\PrintCenter.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:50:36 --> Undefined variable: company_detail
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: company_detail', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(36): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:50:37 --> Undefined variable: company_detail
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: company_detail', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(36): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:54:04 --> Class 'App\Models\Print_center\Database' not found
+in APPPATH\Models\Print_center\Printcentermodel.php on line 50.
+ 1 APPPATH\Controllers\Print_center\PrintCenter.php(18): App\Models\Print_center\Printcentermodel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Print_center\PrintCenter->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:56:33 --> Undefined variable: company_detail
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: company_detail', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(36): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:58:16 --> Undefined variable: company_detail
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: company_detail', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(36): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:58:17 --> Undefined variable: company_detail
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: company_detail', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(36): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:59:57 --> Illegal string offset 'pdfImage'
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'pdfImage\'', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(38): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:59:57 --> Illegal string offset 'pdfImage'
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'pdfImage\'', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(38): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:59:58 --> Illegal string offset 'pdfImage'
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'pdfImage\'', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(38): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:59:58 --> Illegal string offset 'pdfImage'
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'pdfImage\'', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(38): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 10:59:59 --> Illegal string offset 'pdfImage'
+in APPPATH\Views\print_center\print_center.php on line 253.
+ 1 APPPATH\Views\print_center\print_center.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'pdfImage\'', 'APPPATH\\Views\\print_center\\print_center.php', 253, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_center\\print_center.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('print_center/print_center', [], true)
+ 5 APPPATH\Controllers\Print_center\PrintCenter.php(38): view('print_center/print_center')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Print_center\PrintCenter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Print_center\PrintCenter))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-30 21:27:57 --> Undefined variable $director_name
+in APPPATH/Views/company_setup/ownership.php on line 133.
+ 1 APPPATH/Views/company_setup/ownership.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $director_name', 'APPPATH/Views/company_setup/ownership.php', 133)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/company_setup/ownership.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('company_setup/ownership', [], true)
+ 5 APPPATH/Views/companysetup.php(70): view('company_setup/ownership')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/companysetup.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('companysetup', [], true)
+ 9 APPPATH/Controllers/User.php(39): view('companysetup', [...])
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->companysetup()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-30 21:29:37 --> Attempt to read property "id" on null
+in APPPATH/Controllers/Investor.php on line 84.
+ 1 APPPATH/Controllers/Investor.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/Investor.php', 84)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Investor->ajaxListJs()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-30 21:29:37 --> Attempt to read property "id" on null
+in APPPATH/Controllers/User.php on line 241.
+ 1 APPPATH/Controllers/User.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/User.php', 241)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->getFinanceTable()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-30 21:29:37 --> Attempt to read property "id" on null
+in APPPATH/Controllers/User.php on line 296.
+ 1 APPPATH/Controllers/User.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/User.php', 296)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->getAssumptionsData()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-30 21:29:37 --> Attempt to read property "id" on null
+in APPPATH/Controllers/User.php on line 304.
+ 1 APPPATH/Controllers/User.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/User.php', 304)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->currency()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-30 21:29:37 --> Attempt to read property "id" on null
+in APPPATH/Controllers/Director.php on line 404.
+ 1 APPPATH/Controllers/Director.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/Director.php', 404)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-30 21:29:37 --> Attempt to read property "id" on null
+in APPPATH/Controllers/User.php on line 304.
+ 1 APPPATH/Controllers/User.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/User.php', 304)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->currency()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-30 21:29:37 --> Attempt to read property "id" on null
+in APPPATH/Controllers/Investor.php on line 141.
+ 1 APPPATH/Controllers/Investor.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/Investor.php', 141)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-30 21:29:37 --> Attempt to read property "id" on null
+in APPPATH/Controllers/User.php on line 304.
+ 1 APPPATH/Controllers/User.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/User.php', 304)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->currency()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

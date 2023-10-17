@@ -1,0 +1,36 @@
+CRITICAL - 2022-10-11 17:07:59 --> Attempt to read property "f_name" on null
+in APPPATH/Views/pages/getting_started.php on line 14.
+ 1 APPPATH/Views/pages/getting_started.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH/Views/pages/getting_started.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/getting_started.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('pages/getting_started', [], true)
+ 5 APPPATH/Controllers/Page.php(23): view('pages/getting_started')
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Page->gettingstarted()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-11 17:08:40 --> Attempt to read property "f_name" on null
+in APPPATH/Views/pages/faq.php on line 13.
+ 1 APPPATH/Views/pages/faq.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH/Views/pages/faq.php', 13)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('pages/faq', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/faq')
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Page->FAQ()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-11 17:08:46 --> Attempt to read property "f_name" on null
+in APPPATH/Views/pages/getting_started.php on line 14.
+ 1 APPPATH/Views/pages/getting_started.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH/Views/pages/getting_started.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/getting_started.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('pages/getting_started', [], true)
+ 5 APPPATH/Controllers/Page.php(23): view('pages/getting_started')
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Page->gettingstarted()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

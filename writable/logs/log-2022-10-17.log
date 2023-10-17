@@ -1,0 +1,16 @@
+CRITICAL - 2022-10-17 00:22:29 --> Undefined property: App\Controllers\Revenue::$revenue_model
+in APPPATH/Controllers/Revenue.php on line 383.
+ 1 APPPATH/Controllers/Revenue.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Revenue::$revenue_model', 'APPPATH/Controllers/Revenue.php', 383)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->delete_product_revenue('121')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-17 00:23:04 --> Undefined property: App\Controllers\Revenue::$revenue_model
+in APPPATH/Controllers/Revenue.php on line 383.
+ 1 APPPATH/Controllers/Revenue.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Revenue::$revenue_model', 'APPPATH/Controllers/Revenue.php', 383)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->delete_product_revenue('121')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

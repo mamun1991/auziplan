@@ -1,0 +1,192 @@
+CRITICAL - 2022-10-04 20:05:24 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:24 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:24 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:24 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:26 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:26 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:26 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:26 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:27 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:28 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:28 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-04 20:05:28 --> Undefined variable $vacation_days
+in APPPATH/Controllers/Revenue.php on line 445.
+ 1 APPPATH/Controllers/Revenue.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vacation_days', 'APPPATH/Controllers/Revenue.php', 445)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Revenue->ajaxAddHourlyRate()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

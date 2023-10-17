@@ -1,0 +1,266 @@
+CRITICAL - 2022-09-01 00:43:45 --> include(./director_view.php): Failed to open stream: No such file or directory
+in APPPATH/Views/main_dashboard/main_dashboard.php on line 460.
+ 1 APPPATH/Views/main_dashboard/main_dashboard.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./director_view.php): Failed to open stream: No such file or directory', 'APPPATH/Views/main_dashboard/main_dashboard.php', 460)
+ 2 APPPATH/Views/main_dashboard/main_dashboard.php(460): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/main_dashboard/main_dashboard.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('main_dashboard/main_dashboard', [], true)
+ 6 APPPATH/Controllers/MainDashboard.php(15): view('main_dashboard/main_dashboard')
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\MainDashboard->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainDashboard))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-01 02:02:18 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+in APPPATH/Controllers/OpeningCosts.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated', 'APPPATH/Controllers/OpeningCosts.php', 191)
+ 2 APPPATH/Controllers/OpeningCosts.php(191): preg_replace('/[^0-9]/', 'ROOTPATH/public', null)
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningCosts))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-01 02:02:18 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+in APPPATH/Controllers/OpeningCosts.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated', 'APPPATH/Controllers/OpeningCosts.php', 191)
+ 2 APPPATH/Controllers/OpeningCosts.php(191): preg_replace('/[^0-9]/', 'ROOTPATH/public', null)
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningCosts))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-01 02:02:19 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+in APPPATH/Controllers/OpeningCosts.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated', 'APPPATH/Controllers/OpeningCosts.php', 191)
+ 2 APPPATH/Controllers/OpeningCosts.php(191): preg_replace('/[^0-9]/', 'ROOTPATH/public', null)
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningCosts))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-01 02:02:19 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+in APPPATH/Controllers/OpeningCosts.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated', 'APPPATH/Controllers/OpeningCosts.php', 191)
+ 2 APPPATH/Controllers/OpeningCosts.php(191): preg_replace('/[^0-9]/', 'ROOTPATH/public', null)
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningCosts))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-01 09:12:04 --> Trying to get property 'f_name' of non-object
+in APPPATH\Views\pages\pricing.php on line 19.
+ 1 APPPATH\Views\pages\pricing.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'f_name\' of non-object', 'APPPATH\\Views\\pages\\pricing.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\pricing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pages/pricing', [], true)
+ 5 APPPATH\Controllers\Page.php(31): view('pages/pricing')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Page->pricing()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 09:13:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-01 09:13:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 09:13:33 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-01 09:13:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 09:38:17 --> Trying to get property 'id' of non-object
+in APPPATH\Controllers\Director.php on line 404.
+ 1 APPPATH\Controllers\Director.php(404): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id\' of non-object', 'APPPATH\\Controllers\\Director.php', 404, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 09:38:47 --> Trying to get property 'id' of non-object
+in APPPATH\Controllers\Director.php on line 404.
+ 1 APPPATH\Controllers\Director.php(404): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id\' of non-object', 'APPPATH\\Controllers\\Director.php', 404, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 09:51:15 --> Trying to get property 'id' of non-object
+in APPPATH\Controllers\Director.php on line 404.
+ 1 APPPATH\Controllers\Director.php(404): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id\' of non-object', 'APPPATH\\Controllers\\Director.php', 404, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Director))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:30:56 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+in APPPATH\Controllers\User.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:38:43 --> Call to undefined method CodeIgniter\HTTP\Response::setData()
+in APPPATH\Controllers\User.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:38:44 --> Call to undefined method CodeIgniter\HTTP\Response::setData()
+in APPPATH\Controllers\User.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:38:44 --> Call to undefined method CodeIgniter\HTTP\Response::setData()
+in APPPATH\Controllers\User.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:38:59 --> Call to undefined method CodeIgniter\HTTP\Response::setResult()
+in APPPATH\Controllers\User.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:39:00 --> Call to undefined method CodeIgniter\HTTP\Response::setResult()
+in APPPATH\Controllers\User.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:39:00 --> Call to undefined method CodeIgniter\HTTP\Response::setResult()
+in APPPATH\Controllers\User.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:40:42 --> Call to undefined method CodeIgniter\HTTP\Response::setResult()
+in APPPATH\Controllers\User.php on line 320.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:42:38 --> syntax error, unexpected ')', expecting ']'
+in APPPATH\Controllers\User.php on line 319.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\User')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\User', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:54:33 --> Undefined index: currency
+in APPPATH\Controllers\User.php on line 306.
+ 1 APPPATH\Controllers\User.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: currency', 'APPPATH\\Controllers\\User.php', 306, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 10:54:34 --> Undefined index: currency
+in APPPATH\Controllers\User.php on line 306.
+ 1 APPPATH\Controllers\User.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: currency', 'APPPATH\\Controllers\\User.php', 306, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->currency()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

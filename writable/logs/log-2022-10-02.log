@@ -1,0 +1,232 @@
+CRITICAL - 2022-10-02 11:38:51 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:38:53 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:38:54 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:38:56 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:12 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:14 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:26 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:28 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:30 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:32 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:34 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:36 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:38 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:40 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:42 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:46 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:46 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:47 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:48:47 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:49:06 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:49:08 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:49:10 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:49:12 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:49:14 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:49:16 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:49:18 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-02 11:49:20 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Revenue.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Revenue->revenue_stream_total_revenue_required()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

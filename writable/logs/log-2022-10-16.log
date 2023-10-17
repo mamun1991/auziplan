@@ -1,0 +1,377 @@
+CRITICAL - 2022-10-16 18:11:17 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:11:19 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:11:21 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:11:22 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:11:30 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:11:31 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:12:45 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:12:51 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:14:08 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:16:47 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:16:48 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:17:08 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:19:46 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:21:22 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:21:24 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:21:28 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:22:59 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:23:01 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:28:56 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:28:57 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:28:58 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:29:14 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:29:15 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:29:58 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:29:59 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:30:38 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:30:39 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:31:42 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:32:06 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:32:07 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:32:08 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:36:59 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:37:01 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:37:57 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:38:05 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:38:19 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:38:21 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:38:27 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:38:33 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:38:40 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:38:45 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 22:51:43 --> Attempt to read property "id" on null
+in APPPATH/Controllers/User.php on line 161.
+ 1 APPPATH/Controllers/User.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH/Controllers/User.php', 161)
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\User->amortization()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

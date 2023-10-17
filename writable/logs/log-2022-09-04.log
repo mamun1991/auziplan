@@ -1,0 +1,75 @@
+ERROR - 2022-09-04 08:38:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect()
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-09-04 08:38:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind()
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-04 09:45:16 --> Undefined variable $total_month
+in APPPATH\Views\analysis_reports\business_health.php on line 295.
+ 1 APPPATH\Views\analysis_reports\business_health.php(295): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\analysis_reports\\business_health.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\analysis.php(73): view()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\analysis.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Analysis.php(47): view()
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Analysis->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-04 10:43:22 --> Undefined variable $total_month
+in APPPATH\Views\analysis_reports\business_health.php on line 295.
+ 1 APPPATH\Views\analysis_reports\business_health.php(295): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\analysis_reports\\business_health.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\analysis.php(73): view()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\analysis.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Analysis.php(47): view()
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Analysis->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,129 @@
+  <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="py-0 overflow-hidden light" id="banner"></section>
+
+
+          <?php echo view('needhelp_view'); ?>
+                <div class="col-sm-12 col-md-6 px-sm-0 align-self-center mx-auto py-5">
+       
+                  <div class="mt-5 mb-3">
+           
+                  <div class="card-body position-relative" style="height: 800px;">
+              
+                            <div class="row align-items-center">
+                              <h1 class="text-primary">Getting Started <?php echo $user->f_name . ' ' . $user->l_name ?> </h1>			
+
+                              <div >
+                                  
+                                  <div class="pb-0">
+                                  <div class="row p-3">
+                                      <div class="col-lg-6">
+                                          <h5 class="fs-0">How does Falcon's pricing work?</h5>
+                                          <p class="fs--1">The free version of Falcon is available for teams of up to 15 people. Our Falcon Premium plans of 15 or fewer qualify for a small team discount. As your team grows to 20 users or more and gets more value out of Falcon, you'll get closer to our standard monthly price per seat. The price of a paid Falcon plan is tiered, starting in groups of 5 and 10 users, based on the number of people you have in your Team or Organization.</p>
+                                          <h5 class="fs-0">What forms of payment do you accept?</h5>
+                                          <p class="fs--1">You can purchase Falcon with any major credit card. For annual subscriptions, we can issue an invoice payable by bank transfer or check. Please contact us to arrange an invoice purchase. Monthly purchases must be paid for by credit card.</p>
+                                          <h5 class="fs-0">We need to add more people to our team. How will that be billed?</h5>
+                                          <p class="fs--1">You can add as many new teammates as you need before changing your subscription. We will subsequently ask you to correct your subscription to cover current usage.</p>
+                                          <h5 class="fs-0">How secure is Falcon?</h5>
+                                          <p class="fs--1">Protecting the data you trust to Falcon is our first priority. Falcon uses physical, procedural, and technical safeguards to preserve the integrity and security of your information. We regularly back up your data to prevent data loss and aid in recovery. Additionally, we host data in secure SSAE 16 / SOC1 certified data centers, implement firewalls and access restrictions on our servers to better protect your information, and work with third party security researchers to ensure our practices are secure.</p>
+                                      </div>
+                                      <div class="col-lg-6">
+                                          <h5 class="fs-0">Will I be charged sales tax?</h5>
+                                          <p class="fs--1">As of May 2016, state and local sales tax will be applied to fees charged to customers with a billing address in the State of New York.</p>
+                                          <h5 class="fs-0">Do you offer discounts?</h5>
+                                          <p class="fs--1">We've built in discounts at each tier for teams smaller than 15 members. We also offer two months for free in exchange for an annual subscription.</p>
+                                          <h5 class="fs-0">Do you offer academic pricing?</h5>
+                                          <p class="fs--1">We're happy to work with student groups using Falcon. Contact Us</p>
+                                          <h5 class="fs-0">Is there an on-premise version of Falcon?</h5>
+                                          <p class="fs--1">We are passionate about the web. We don't plan to offer an internally hosted version of Falcon. We hope you trust us to provide a robust and secure service so you can do the work only your team can do.</p>
+                                          <h5 class="fs-0">What is your refund policy?</h5>
+                                          <p class="fs--1">We do not offer refunds apart from exceptions listed below. If you cancel your plan before the next renewal cycle, you will retain access to paid features until the end of your subscription period. When your subscription expires, you will lose access to paid features and all data associated with those features. Exceptions to our refund policy: canceling within 48 hours of initial charge will result in a full refund. If you cancel within this timeframe, you will lose access to paid features and associated data immediately upon canceling.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card-footer py-3">
+                                  <div class="text-center py-3">
+                                      <h6 class="fs-0 fw-normal">Did you find this helpful?</h6>
+                                      <a class="btn btn-falcon-primary btn-sm mt-1" href="#" data-bs-toggle="modal" data-bs-target="#emailModal"> Ask us anything</a>
+                                        <button type="button" class="btn btn-falcon-success btn-sm mt-1">Yes</button>
+                                          <button type="button" class="btn btn-falcon-success btn-sm mt-1">No</button>       
+                                      </div>
+                                    </div>
+                                  </div>             
+                                </div>
+                              </div>
+                            </div>               
+                          </div><!--/.row-->		
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

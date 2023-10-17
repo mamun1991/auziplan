@@ -1,0 +1,1432 @@
+ERROR - 2022-09-02 07:33:01 --> mysqli_sql_exception: MySQL server has gone away in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+CRITICAL - 2022-09-02 07:33:01 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `email` = \'nuri@auziplan.com\'
+AND `password` = \'098f6bcd4621d373cade4e832627b4f6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `email` = \'nuri@auziplan.com\'
+AND `password` = \'098f6bcd4621d373cade4e832627b4f6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `email` = \'nuri@auziplan.com\'
+AND `password` = \'098f6bcd4621d373cade4e832627b4f6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:19 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:27 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:31 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:33:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:33:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 07:34:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 07:34:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 16:48:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 16:48:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-02 16:48:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('127.0.0.1', 'root', '', 'excelpla_cbp_on...', 3306, '', 0)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\app\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+#6 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+#7 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\h4ham\\...')
+#11 {main}
+CRITICAL - 2022-09-02 16:48:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Login.php(54): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:02:57 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load()
+ 3 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:03:22 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load()
+ 3 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:03:23 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load()
+ 3 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:03:24 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load()
+ 3 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:03:26 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load()
+ 3 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:03:27 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load()
+ 3 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:03:28 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load()
+ 3 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:03:57 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load()
+ 3 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:06:03 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Director.php(512): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:06:04 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:06:13 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Director.php(512): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:06:13 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:06:17 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Director.php(512): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:06:18 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:07:22 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Director.php(512): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:07:22 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:09:54 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Director.php(512): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:09:55 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:12:12 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+in APPPATH\Controllers\OpeningCosts.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\OpeningCosts.php(191): preg_replace()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:22:36 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Director.php(512): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:22:36 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:22:42 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Director.php(512): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:22:42 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:22:53 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Director.php(512): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Director->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:22:54 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:23:08 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:24:08 --> Undefined constant PDO::MYSQL_ATTR_INIT_COMMAND
+in FCPATH\custom-assets\Ssp.php on line 408.
+ 1 FCPATH\custom-assets\Ssp.php(87): Ssp::sql_connect()
+ 2 FCPATH\custom-assets\Ssp.php(253): Ssp::db()
+ 3 APPPATH\Controllers\Investor.php(214): Ssp::simple()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->ajaxListDt()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:32:09 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\OpeningCosts.php on line 191.
+ 1 APPPATH\Controllers\OpeningCosts.php(191): round()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:33:46 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\OpeningCosts.php on line 191.
+ 1 APPPATH\Controllers\OpeningCosts.php(191): round()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:35:13 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\OpeningCosts.php on line 191.
+ 1 APPPATH\Controllers\OpeningCosts.php(191): round()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:35:56 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\OpeningCosts.php on line 192.
+ 1 APPPATH\Controllers\OpeningCosts.php(192): round()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:36:17 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\OpeningCosts.php on line 193.
+ 1 APPPATH\Controllers\OpeningCosts.php(193): round()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 20:38:02 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\OpeningCosts.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-02 20:53:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Controllers\OpeningCosts.php on line 165.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->motorEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 21:36:56 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\OpeningCosts.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAddMotors()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 21:37:02 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\OpeningCosts.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAddMotors()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 21:37:27 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\OpeningCosts.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAddMotors()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 21:37:28 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\OpeningCosts.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAddMotors()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 21:37:31 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\OpeningCosts.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAddMotors()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 21:58:40 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\OpeningCosts.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAddMotors()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 22:01:23 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\OpeningCosts.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAddMotors()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 22:02:03 --> Undefined property: App\Controllers\OpeningCosts::$Opening_costs_model
+in APPPATH\Controllers\OpeningCosts.php on line 505.
+ 1 APPPATH\Controllers\OpeningCosts.php(505): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OpeningCosts->ajaxAddMotors()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 22:21:03 --> Too few arguments to function App\Controllers\OperatingCosts::ajaxEditPeople(), 0 passed in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\OperatingCosts.php on line 441.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OperatingCosts->ajaxEditPeople()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 22:21:13 --> Too few arguments to function App\Controllers\OperatingCosts::ajaxEditPeople(), 0 passed in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\OperatingCosts.php on line 441.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OperatingCosts->ajaxEditPeople()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 22:21:22 --> Too few arguments to function App\Controllers\OperatingCosts::ajaxEditPeople(), 0 passed in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\OperatingCosts.php on line 441.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OperatingCosts->ajaxEditPeople()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 22:22:58 --> Too few arguments to function App\Controllers\OperatingCosts::ajaxEditPeople(), 0 passed in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\OperatingCosts.php on line 441.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OperatingCosts->ajaxEditPeople()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-02 22:23:00 --> Too few arguments to function App\Controllers\OperatingCosts::ajaxEditPeople(), 0 passed in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\OperatingCosts.php on line 441.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\OperatingCosts->ajaxEditPeople()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

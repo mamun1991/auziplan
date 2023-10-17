@@ -1,0 +1,1152 @@
+CRITICAL - 2022-09-09 12:41:32 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:41:34 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:41:35 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:41:36 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:42:52 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:42:53 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:45:06 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:45:07 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:45:08 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:45:10 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:59:16 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:59:22 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:59:23 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:59:26 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504573_eecc8be79c5687adb982.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 12:59:27 --> file_get_contents(C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\writable\uploads\20220906\1662504621_25ce283405c762f812a9.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Uploadfile.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Uploadfile.php(28): file_get_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Uploadfile->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 13:00:13 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\newpassword.php on line 108.
+ 1 APPPATH\Views\newpassword.php(108): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\newpassword.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Login.php(171): view()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->verify_forgotpwd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 13:02:32 --> Undefined variable $currency_icon
+in APPPATH\Views\other-layouts\head.php on line 116.
+ 1 APPPATH\Views\other-layouts\head.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\other-layouts\\head.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\MainDashboard.php(12): view()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainDashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 13:02:38 --> Undefined variable $currency_icon
+in APPPATH\Views\other-layouts\head.php on line 116.
+ 1 APPPATH\Views\other-layouts\head.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\other-layouts\\head.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\User.php(36): view()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->companysetup()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 19:31:52 --> fwrite(): SSL: An existing connection was forcibly closed by the remote host
+in APPPATH\Libraries\swift_mailer\classes\Swift\Transport\StreamBuffer.php on line 236.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Libraries\swift_mailer\classes\Swift\Transport\StreamBuffer.php(236): fwrite()
+ 3 APPPATH\Libraries\swift_mailer\classes\Swift\ByteStream\AbstractFilterableInputStream.php(175): Swift_Transport_StreamBuffer->_commit()
+ 4 APPPATH\Libraries\swift_mailer\classes\Swift\ByteStream\AbstractFilterableInputStream.php(92): Swift_ByteStream_AbstractFilterableInputStream->_doWrite()
+ 5 APPPATH\Libraries\swift_mailer\classes\Swift\Transport\AbstractSmtpTransport.php(276): Swift_ByteStream_AbstractFilterableInputStream->write()
+ 6 APPPATH\Libraries\swift_mailer\classes\Swift\Transport\EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand()
+ 7 APPPATH\Libraries\swift_mailer\classes\Swift\Transport\AbstractSmtpTransport.php(217): Swift_Transport_EsmtpTransport->executeCommand()
+ 8 APPPATH\Libraries\swift_mailer\classes\Swift\Transport\AbstractSmtpTransport.php(505): Swift_Transport_AbstractSmtpTransport->stop()
+ 9 APPPATH\Controllers\Register.php(83): Swift_Transport_AbstractSmtpTransport->__destruct()
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Register->doRegister()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 19:34:22 --> Too few arguments to function App\Controllers\Plans::subscribe(), 0 passed in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Plans.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 19:34:36 --> Too few arguments to function App\Controllers\Plans::subscribe(), 0 passed in C:\Users\h4ham\OneDrive\Desktop\Auziplan-C-4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Plans.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 19:37:00 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 19:37:47 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 19:37:54 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 19:38:09 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 19:38:58 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:19:11 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:24:14 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:24:15 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:24:15 --> Undefined property: App\Controllers\Plans::$Plan_model
+in APPPATH\Controllers\Plans.php on line 40.
+ 1 APPPATH\Controllers\Plans.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:43 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:43 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:44 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:44 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:57 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:58 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:58 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:58 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:25:59 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:26:25 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:26:26 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:26:26 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:26:26 --> Undefined variable $table
+in APPPATH\Models\Plan_model.php on line 48.
+ 1 APPPATH\Models\Plan_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:27:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:27:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:27:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:27:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:27:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:27:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:28:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:28:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:28:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:28:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:28:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Models\Plan_model.php on line 55.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\Plan_model.php on line 56.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\Plan_model.php on line 56.
+ 1 APPPATH\Controllers\Plans.php(47): App\Models\Plan_model->get_all_plans()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:37 --> Undefined variable $name
+in APPPATH\Controllers\Plans.php on line 49.
+ 1 APPPATH\Controllers\Plans.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:38 --> Undefined variable $name
+in APPPATH\Controllers\Plans.php on line 49.
+ 1 APPPATH\Controllers\Plans.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:39 --> Undefined variable $name
+in APPPATH\Controllers\Plans.php on line 49.
+ 1 APPPATH\Controllers\Plans.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:58 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 64.
+ 1 APPPATH\Controllers\Plans.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:59 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 64.
+ 1 APPPATH\Controllers\Plans.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:59 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 64.
+ 1 APPPATH\Controllers\Plans.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:30:59 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 64.
+ 1 APPPATH\Controllers\Plans.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:31:28 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 64.
+ 1 APPPATH\Controllers\Plans.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:32:51 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 25.
+ 1 APPPATH\Controllers\Plans.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:32:52 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 25.
+ 1 APPPATH\Controllers\Plans.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:32:52 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 25.
+ 1 APPPATH\Controllers\Plans.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:35:07 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 25.
+ 1 APPPATH\Controllers\Plans.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:48:36 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 26.
+ 1 APPPATH\Controllers\Plans.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:50:51 --> Cannot redeclare App\Controllers\Plans::__construct()
+in APPPATH\Controllers\Plans.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-09 21:50:52 --> Cannot redeclare App\Controllers\Plans::__construct()
+in APPPATH\Controllers\Plans.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-09 21:51:04 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 27.
+ 1 APPPATH\Controllers\Plans.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 21:56:11 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 68.
+ 1 APPPATH\Controllers\Plans.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:00:12 --> Cannot call constructor
+in APPPATH\Controllers\Plans.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:00:13 --> Cannot call constructor
+in APPPATH\Controllers\Plans.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:04:23 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 APPPATH\Controllers\Plans.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:04:24 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 APPPATH\Controllers\Plans.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:04:24 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 APPPATH\Controllers\Plans.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:04:24 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 APPPATH\Controllers\Plans.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:04:24 --> Undefined property: App\Controllers\Plans::$load
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 APPPATH\Controllers\Plans.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:10:02 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 67.
+ 1 APPPATH\Controllers\Plans.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:10:03 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 67.
+ 1 APPPATH\Controllers\Plans.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:10:22 --> Undefined variable $paypal_lib
+in APPPATH\Controllers\Plans.php on line 67.
+ 1 APPPATH\Controllers\Plans.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:10:23 --> Undefined variable $paypal_lib
+in APPPATH\Controllers\Plans.php on line 67.
+ 1 APPPATH\Controllers\Plans.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:10:23 --> Undefined variable $paypal_lib
+in APPPATH\Controllers\Plans.php on line 67.
+ 1 APPPATH\Controllers\Plans.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:12:22 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 67.
+ 1 APPPATH\Controllers\Plans.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:12:23 --> Undefined property: App\Controllers\Plans::$paypal_lib
+in APPPATH\Controllers\Plans.php on line 67.
+ 1 APPPATH\Controllers\Plans.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:13:32 --> Class "paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:13:33 --> Class "paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:13:33 --> Class "paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:13:50 --> Undefined variable $paypalID
+in APPPATH\Controllers\Plans.php on line 68.
+ 1 APPPATH\Controllers\Plans.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:34 --> Class "App\libraries\Paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:34 --> Class "App\libraries\Paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:35 --> Class "App\libraries\Paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:35 --> Class "App\libraries\Paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:35 --> Class "App\libraries\Paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:53 --> Class "App\libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:54 --> Class "App\libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:54 --> Class "App\libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:14:54 --> Class "App\libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:15:25 --> Class "App\libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:15:26 --> Class "App\libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:15:26 --> Class "App\libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:15:26 --> Class "App\libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:17:41 --> Class "App\Libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:17:42 --> Class "App\Libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:17:42 --> Class "App\Libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:17:42 --> Class "App\Libraries\paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:18:00 --> Class "App\Libraries\Paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:18:01 --> Class "App\Libraries\Paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:21:50 --> Class "App\Libraries\Paypal_lib" not found
+in APPPATH\Controllers\Plans.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:29:05 --> Call to undefined function App\Libraries\get_instance()
+in APPPATH\Libraries\Paypal_lib.php on line 69.
+ 1 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:29:05 --> Call to undefined function App\Libraries\get_instance()
+in APPPATH\Libraries\Paypal_lib.php on line 69.
+ 1 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:29:06 --> Call to undefined function App\Libraries\get_instance()
+in APPPATH\Libraries\Paypal_lib.php on line 69.
+ 1 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:29:06 --> Call to undefined function App\Libraries\get_instance()
+in APPPATH\Libraries\Paypal_lib.php on line 69.
+ 1 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:29:48 --> Call to undefined function App\Libraries\get_instance()
+in APPPATH\Libraries\Paypal_lib.php on line 69.
+ 1 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:30:41 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:30:42 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:30:42 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:30:43 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:30:53 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:31:30 --> Undefined variable $sanbox
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:31:31 --> Undefined variable $sanbox
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:31:31 --> Undefined variable $sanbox
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:31:31 --> Undefined variable $sanbox
+in APPPATH\Libraries\Paypal_lib.php on line 70.
+ 1 APPPATH\Libraries\Paypal_lib.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:31:46 --> Attempt to read property "config" on null
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:32:56 --> Undefined constant "BASEPATH"
+in APPPATH\Config\paypallib_config.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH\Config\Factories.php(152): class_exists()
+ 6 SYSTEMPATH\Config\Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH\Common.php(199): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH\Libraries\Paypal_lib.php(72): config()
+ 9 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+10 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+11 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:33:35 --> Attempt to read property "config" on null
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:33:36 --> Attempt to read property "config" on null
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:34:02 --> Undefined variable $config
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:34:03 --> Undefined variable $config
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:34:03 --> Undefined variable $config
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:34:19 --> Undefined variable $paypallib_config
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:34:20 --> Undefined variable $paypallib_config
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:34:20 --> Undefined variable $paypallib_config
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:34:20 --> Undefined variable $paypallib_config
+in APPPATH\Libraries\Paypal_lib.php on line 74.
+ 1 APPPATH\Libraries\Paypal_lib.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:35:09 --> Undefined variable $sanbox
+in APPPATH\Libraries\Paypal_lib.php on line 76.
+ 1 APPPATH\Libraries\Paypal_lib.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:35:21 --> Attempt to read property "config" on null
+in APPPATH\Libraries\Paypal_lib.php on line 81.
+ 1 APPPATH\Libraries\Paypal_lib.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Plans.php(28): App\Libraries\paypal_lib->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Plans->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 22:45:27 --> Undefined variable $paypalID
+in APPPATH\Controllers\Plans.php on line 68.
+ 1 APPPATH\Controllers\Plans.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plans->subscribe()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
